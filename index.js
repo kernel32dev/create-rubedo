@@ -6,8 +6,6 @@ const inquirer = require('inquirer');
 
 const prompt = inquirer.createPromptModule();
 
-console.log({ __dirname: __dirname });
-
 (async () => {
     console.log("Welcome to Create Rubedo!");
 
