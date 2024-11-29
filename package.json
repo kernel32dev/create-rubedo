@@ -1,0 +1,22 @@
+{
+    "name": "create-rubedo",
+    "version": "0.1.0",
+    "description": "Create a new Rubedo project",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "templates"
+    ],
+    "dependencies": {
+        "fs-extra": "^11.2.0",
+        "inquirer": "^12.1.0"
+    },
+    "author": "kernel32dev",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kernel32dev/create-rubedo.git"
+    },
+    "bugs": "https://github.com/kernel32dev/create-rubedo/issues",
+    "homepage": "https://github.com/kernel32dev/create-rubedo"
+}

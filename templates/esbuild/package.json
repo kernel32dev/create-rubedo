@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-rubedo-example-project",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"esbuild dist/src/index.js --bundle --sourcemap --minify --outfile=dist/bundle.js --platform=browser --watch\" \"live-server .\"",
+    "build": "tsc && esbuild dist/src/index.js --bundle --sourcemap --minify --outfile=dist/bundle.js --platform=browser",
+    "watch": "concurrently \"tsc --watch\" \"esbuild dist/src/index.js --bundle --sourcemap --minify --outfile=dist/bundle.js --platform=browser --watch\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "esbuild": "^0.24.0",
+    "live-server": "^1.2.2",
+    "rubedo": "^0.1.0",
+    "rubedo-dom": "^0.1.1",
+    "typescript": "^5.7.2"
+  }
+}
